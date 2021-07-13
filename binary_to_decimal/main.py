@@ -24,4 +24,3 @@ while True:
 
     except ValueError:
         print("Please only enter binary Numbers.")
-
