@@ -30,7 +30,7 @@ class GuessingGame:
 
         # this Part of the Program should be obvious
         # we get the Guess from the User-Input
-        # checking it if it a Number
+        # checking it if it is a Number
         # then we respond depending on the result
         # if it is not a Number, we ask again for an Input
         # we only increase the Number of Guesses if it really was a Number
