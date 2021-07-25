@@ -1,5 +1,11 @@
 This Project was a quick Version of the Game Rock, Paper, Scissors
 
+Example Input-Request:
+![ask_for_input](https://user-images.githubusercontent.com/43956685/126900702-69bc2724-6938-420f-bb00-9443dd74cf36.png)
+
+
+# ##### #
+
 Here are some Example Outputs:
 
 Draw:
