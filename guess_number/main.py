@@ -73,3 +73,7 @@ while True:
 while Game.guesses < Game.max_guesses:
     if not Game.guess():
         break
+
+# if the User did not Guess the Number we will let him know what the Number was
+if Game.guesses == Game.max_guesses:
+    print(f"The Number was {Game.pc_number}")
