@@ -37,7 +37,7 @@ def who_is_winner(votes):
         print(f"{winners[0]} has won with {winning_amount} Votes.")
         
             #   if you only want the Name of the Winner just do it like here
-            #   #print(winner[0]) 
+            #   print(winners[0]) 
     
     else:
 
