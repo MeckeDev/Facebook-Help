@@ -42,7 +42,7 @@ class GuessingGame:
                 self.guesses += 1
 
                 if my_guess == self.pc_number:
-                    print(f"Congats, you have found the Number after {self.guesses}/{self.max_guesses} Guesses.")
+                    print(f"Congrats, you have found the Number after {self.guesses}/{self.max_guesses} Guesses.")
                     return False
 
                 elif my_guess > self.pc_number:
