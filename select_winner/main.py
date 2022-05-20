@@ -1,5 +1,6 @@
 # creating the Function to pick the Winner
 def who_is_winner(votes):
+    """ Picks a Winner of a List with Votes """
 
     # getting a List of unique Names of Participants
     participants = set(votes)
