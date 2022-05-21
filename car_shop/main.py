@@ -23,15 +23,15 @@ def sell_cars():
     """ This is the Mainloop to sell the Cars until the Lot is Empty"""
     
     global lot
-
-    # generating the Total amount of available Cars
-    try:
-        total = sum([x[2] for x in lot])
-    except:
-        total = 0
+    total = 1
 
     # running the Shop until somebody exit it or the Lot is Empty
     while total > 0:
+
+        # generating the Total amount of available Cars
+        total = sum([x[2] for x in lot])
+        if total == 0:
+            break
         
         answer = "x"
         # asking the User if he wants to buy a Car
