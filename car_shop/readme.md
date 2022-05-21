@@ -1,0 +1,1 @@
+This is a  small Car-Shop Script for the selling Process, could be expanded with a JSON File to keep the Cars after restarting.
