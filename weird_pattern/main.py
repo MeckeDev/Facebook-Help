@@ -1,3 +1,4 @@
+""" Generates a Pattern depending on the user Input """
 # user can input the Width of the Square
 width = int(input("Width: "))
 
@@ -9,10 +10,10 @@ output = ("*" * width) + "\n"
 
 # here we add each row with the ! Signs
 for i in range(height-2):
-    output += "!" + (" " * (width -2)) + "!\n"
+    output += "!" + (" " * (width - 2)) + "!\n"
 
 # we end the Output with another line of Stars
-output += "*"  * width
+output += "*" * width
 
-#print the Output to the Console
+# print the Output to the Console
 print(output)

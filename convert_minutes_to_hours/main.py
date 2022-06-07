@@ -1,7 +1,8 @@
+""" Module to convert Minutes into Hours """
 # we have to import math in order to use floor()
-from math import *
+from math import floor
 
-# a while True loop runs forever except it you use break to end the Loop
+# a while True loop runs forever except, you use break to end the Loop
 while True:
 
     # try helps us to catch any Errors if for Example the user did not enter a Number
@@ -26,9 +27,9 @@ Enter 0 to exit the Program
 
         # prints the Results to the Console
         print(f"{hours} Hours and {minutes} Minutes")
-    
+
     # this gets called if the User did not enter a Number
-    except:
+    except ValueError:
 
         # lets the User know what he did wrong and starts the Program from the beginning
         print("Please only enter Numbers.")

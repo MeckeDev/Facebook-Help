@@ -1,10 +1,13 @@
-word = input("Word: ")
-char = input("Char: ")
+""" Module to count the Occurrences of a Char in a Word """
+word_input = input("Word: ")
+char_input = input("Char: ")
+
 
 def find_chars(word, char):
-    """ returns the occurences of a specific Letter in the given Word """
+    """ returns the occurrences of a specific Letter in the given Word """
     occ = 0
-    [occ := occ + 1 for x in word if x == char]
-    return occ
+    count = [occ := occ + 1 for x in word if x == char]
+    return count
 
-print(find_chars(word, char))
+
+print(find_chars(word_input, char_input))
