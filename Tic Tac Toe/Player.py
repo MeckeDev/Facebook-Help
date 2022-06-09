@@ -24,4 +24,5 @@ class Player:
 
     def won(self):
         """ shows the Name of the Winner """
+        self.points += 1
         print(self.name, "has won the Game.")
