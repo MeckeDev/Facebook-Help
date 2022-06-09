@@ -40,7 +40,7 @@ class Game:
 """
         """ Visual representation of the current Game """
 
-        self.not_used_fields = [x for x in range(1, 10)]
+        self.not_used_fields = list(range(1, 10))
         """ stores all Fields that were not taken by a Player """
 
         self.win = False

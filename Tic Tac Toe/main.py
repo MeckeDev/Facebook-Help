@@ -28,8 +28,7 @@ while not GAME.win:
                 break
 
             # let the Player know his Input was not Valid, before asking for a new Input
-            else:
-                print(f"{picked_field} is not a Valid Input. Valid is {GAME.not_used_fields}")
+            print(f"{picked_field} is not a Valid Input. Valid is {GAME.not_used_fields}")
     else:
 
         # same Process as for Player1 above
@@ -37,8 +36,7 @@ while not GAME.win:
             picked_field = input(f"{P2.name}, please select a Field: ")
             if GAME.set_field(picked_field, "*", P2):
                 break
-            else:
-                print(f"{picked_field} is not a Valid Input. Valid is {GAME.not_used_fields}")
+            print(f"{picked_field} is not a Valid Input. Valid is {GAME.not_used_fields}")
 
     # adding 1 to ROUND to switch to the other Player
     ROUND += 1
