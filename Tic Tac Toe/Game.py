@@ -77,3 +77,6 @@ class Game:
                 player.won()
                 self.win = True
                 return
+        if len(self.not_used_fields) == 0:
+            print("That is a Draw, nobody has won.")
+            self.win = True

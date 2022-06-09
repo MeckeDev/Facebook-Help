@@ -23,4 +23,5 @@ class Player:
         self.fields.append(field)
 
     def won(self):
+        """ shows the Name of the Winner """
         print(self.name, "has won the Game.")
