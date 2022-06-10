@@ -14,7 +14,7 @@ def convert_to_number(user_input):
     new_value = [str(letters[x.upper()])
                  if x.upper() in letters
                  else "-INVALID-"
-                 for x in user_input.split(",")
+                 for x in user_input.replace(" ", "").split(",")
                  ]
     """ generating a List of Numbers for each Letter we have sent """
 
