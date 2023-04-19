@@ -10,11 +10,11 @@ def age_calc(d_age):
             h_age = d_age*15
         elif d_age <= 2:
             h_age = d_age*12
-        elif d_age <= 1:
+        elif d_age <= 5:
             h_age = d_age*9.3
-        elif d_age <= 1:
+        elif d_age <= 10:
             h_age = d_age*8
-        elif d_age <= 1:
+        elif d_age <= 15:
             h_age = d_age*7.2
         else:
             h_age = 36+(d_age-5)*7
