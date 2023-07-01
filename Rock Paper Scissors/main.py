@@ -73,6 +73,10 @@ Your Pick: """)))
         if USER_PICK == 0:
             break
 
+        # if the User enters a Number above 3, we will also raise a ValueError
+        if USER_PICK > 3:
+            raise ValueError
+
         # if the User picks something from 1 to 3 we will translate his Number into his Choice like
         # Rock, Paper or Scissors
         USER_PICK = possible_choices[USER_PICK - 1]
@@ -93,4 +97,5 @@ PC picked: \t {pc_pick}
 
     # This will be printed if the User makes a wrong Input
     except ValueError:
+        cls()
         print("You have to pick a Number between 0 and 3")
