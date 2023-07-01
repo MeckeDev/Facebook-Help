@@ -9,8 +9,8 @@ while True:
         # setting up some default Values
         binary = input("Please enter a binary Number: ")
         new_bin = []
-        DECIMAL = 0
-        POWER = 1
+        decimal = 0
+        power = 1
 
         # closes the Program if User wants to exit
         if binary == "exit":
@@ -29,11 +29,11 @@ while True:
 
         # adding the Power of each position of the binary Number to the decimal Number
         for i in new_bin:
-            DECIMAL += i * POWER
-            POWER *= 2
+            decimal += i * power
+            power *= 2
 
         # Outputs the decimal Result
-        print(f"The Number {binary} is {DECIMAL} in Decimal")
+        print(f"The Number {binary} is {decimal} in Decimal")
 
     # this Error gets raised if the Number was not binary
     except ValueError:
