@@ -74,7 +74,7 @@ Your Pick: """)))
             break
 
         # if the User enters a Number above 3, we will also raise a ValueError
-        if USER_PICK > 3:
+        if USER_PICK > 3 or USER_PICK < 0:
             raise ValueError
 
         # if the User picks something from 1 to 3 we will translate his Number into his Choice like
